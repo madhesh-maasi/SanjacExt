@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sanjac-footer-extension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/sanjacFooterExtension/SanjacFooterExtensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/sanjacFooterExtension/SanjacFooterExtensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SanjacFooterExtensionApplicationCustomizerStrings": "lib/extensions/sanjacFooterExtension/loc/{locale}.js"
+  }
+}

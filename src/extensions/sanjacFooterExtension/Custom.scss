@@ -1,0 +1,141 @@
+[data-automationid="SiteHeader"],
+[data-automationid="ShyHeader"] {
+    background-color: #004880 !important;
+    [data-navigationcomponent="SiteHeader"] {
+        color: #fff !important;
+    }
+    .ms-HorizontalNavItems {
+        .ms-HorizontalNavItem-link {
+            color: #fff;
+            font-weight: 600 !important;
+        }
+        .ms-HorizontalNav-chevronDown {
+            color: #fff;
+        }
+        .ms-HorizontalNavItem-link:hover {
+            color: #ffc524 !important;
+        }
+        .is-selected {
+            color: #ffc524 !important;
+            border-bottom-color: #ffc524 !important;
+        }
+    }
+    .ms-HorizontalNavItem:hover .ms-HorizontalNavItem-linkText,
+    .ms-HorizontalNavItem:hover .ms-HorizontalNav-chevronDown {
+        color: #ffc524 !important;
+        // font-weight: 800 !important;
+    }
+    [data-automationid="CreateSiteSiteButton"],
+    [data-automationid="ShareSiteButton"],
+    [data-automationid="SiteHeaderFollowButton"] {
+        .ms-ButtonSpan {
+            color: #fff !important;
+        }
+        .ms-ButtonSpan {
+            color: #fff !important;
+            &:hover {
+                color: #ffc524 !important;
+            }
+        }
+        .ms-Button-icon {
+            color: #ffc524 !important;
+        }
+        .ms-Button-textContainer {
+            .ms-Button-label {
+                color: #fff !important;
+            }
+            .ms-Button-label:hover {
+                color: #ffc524 !important;
+            }
+        }
+    }
+    .ms-HorizontalNavItem:has(.ms-HorizontalNavItem-link .is-selected)>button>.ms-HorizontalNav-chevronDown {
+        color: #ffc524 !important;
+    }
+}
+
+// [data-navigationcomponent="SiteHeader"]{
+//     color: #fff;
+// }
+.ms-HubNav {
+    background-color: #004880 !important;
+    border-bottom-color: #004880 !important;
+    .ms-HorizontalNavItem-Edit,
+    .ms-HubNav-nameLink {
+        color: #fff !important;
+    }
+    .ms-HorizontalNavItem .ms-HorizontalNavItem-linkText,
+    .ms-HorizontalNav-chevronDown {
+        color: #fff !important;
+        font-weight: 600 !important;
+    }
+    .ms-HorizontalNavItem:hover .ms-HorizontalNavItem-linkText,
+    .ms-HorizontalNavItem:hover .ms-HorizontalNav-chevronDown {
+        color: #ffc524 !important;
+    }
+    .ms-HorizontalNavItem-Edit:hover,
+    .ms-HorizontalNavItem-linkText:hover,
+    .ms-HorizontalNav-chevronDown:hover,
+    .ms-HubNav-nameLink:hover {
+        color: #ffc524 !important;
+    }
+}
+
+.ms-ContextualMenu-list {
+    [class^="splitPrimary"]:hover {
+        background-color: #004880 !important;
+    }
+    .ms-ContextualMenu-splitMenu {
+        background-color: #004880 !important;
+    }
+    .ms-ContextualMenu-link {
+        background-color: #004880 !important;
+    }
+    background-color: #004880 !important;
+    .ms-ContextualMenu-linkContent {
+        background-color: #004880 !important;
+        &:hover {
+            background-color: #004880 !important;
+        }
+        button {
+            background-color: #004880 !important;
+            &:hover,
+            &:active {
+                background-color: #004880 !important;
+            }
+        }
+    }
+    .ms-ContextualMenu-itemText {
+        color: #fff !important;
+        font-weight: 600 !important;
+    }
+    .ms-ContextualMenu-submenuIcon {
+        color: #fff !important;
+    }
+}
+
+.ms-Callout-container {
+    .ms-ContextualMenu-itemText:hover {
+        color: #ffc524 !important;
+    }
+}
+
+.CustomFooter {
+    height: 40px;
+    background-color: #004880 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px 5px 35px;
+    a {
+        display: inline-block;
+    }
+    img {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+footer {
+    display: none;
+}

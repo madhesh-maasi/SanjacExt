@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "sanjac-footer-extension",
+    "libraryId": "61378be9-5566-4ab8-bc2c-e8d005b41f91",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sanjac-footer-extension",
+    "solutionShortDescription": "sanjac-footer-extension description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://chandrudemo.sharepoint.com/sites/Sanjac/",
+      "customActions": {
+        "5f3953c9-6c26-4eb1-8799-0cdfbcfc1c3d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "sanjacFooterExtension": {
+      "pageUrl": "https://chandrudemo.sharepoint.com/sites/Sanjac/",
+      "customActions": {
+        "5f3953c9-6c26-4eb1-8799-0cdfbcfc1c3d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

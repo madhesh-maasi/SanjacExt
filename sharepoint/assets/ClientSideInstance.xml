@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SanjacFooterExtension"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="5f3953c9-6c26-4eb1-8799-0cdfbcfc1c3d"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
