@@ -139,3 +139,27 @@
 footer {
     display: none;
 }
+
+.customNotifyBanner {
+    color: #fff;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cusNotifyTitle {
+        font-weight: bold;
+    }
+    &.Error {
+        background: #800000;
+    }
+    &.Info {
+        background: #004880;
+    }
+    &.Success {
+        background: #008015;
+    }
+    &.Warning {
+        background: #ffc524;
+        color: #004880;
+    }
+}

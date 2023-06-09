@@ -9,10 +9,13 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.14.0",
     "@microsoft/decorators": "1.14.0",
+    "@microsoft/sp-application-base": "1.14.0",
+    "@microsoft/sp-core-library": "1.14.0",
     "@microsoft/sp-dialog": "1.14.0",
-    "@microsoft/sp-application-base": "1.14.0"
+    "@pnp/common": "^2.15.0",
+    "@pnp/logging": "^3.15.0",
+    "@pnp/sp": "^3.15.0"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.14.0",
